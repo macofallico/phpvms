@@ -224,7 +224,7 @@
                     <input type="hidden" name="raw" value="{{ $simbrief->xml->atc->flightplan_text }}">
                     <input type="hidden" name="fuel_time" value="@secstohhmm($simbrief->xml->times->endurance)">
                     <input type="hidden" name="speed" value="{{ $simbrief->xml->atc->initial_spd }}">
-                    <input type="hidden" name="altitude" value="{{ $simbrief->xml->atc->initial_alt }}">
+                    <input type="hidden" name="altitude" value="{{ $simbrief->xml->atc->cruise_tas }}">
                     <input id="vatsim_prefile" type="submit" class="btn btn-primary" value="File ATC on VATSIM"/>
                   </form>
                 </div>
