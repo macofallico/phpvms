@@ -255,7 +255,7 @@
                 </div>
                 <br>
                 <div class="form-container-body">
-                  <h6><i class="fas fa-info-circle"></i>&nbsp;@lang('stisla.briefingoptions')</h6>
+                  <h6><i class="fas fa-info-circle"></i>&nbsp;Briefing Options</h6>
                   <table class="table table-hover table-striped">
                     <tr>
                       <td>Units:</td>
